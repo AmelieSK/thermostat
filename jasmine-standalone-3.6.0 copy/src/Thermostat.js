@@ -7,4 +7,12 @@ class Thermostat {
     console.log(this.Temperature)
     return this.Temperature
   }
+
+  increaseTemperature() {
+    this.Temperature ++
+  }
+
+  decreaseTemperature() {
+    this.Temperature --
+  }
 }
