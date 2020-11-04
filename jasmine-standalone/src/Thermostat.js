@@ -1,6 +1,6 @@
 class Thermostat {
-  constructor() {
-    this.Temperature = 20
+  constructor(temperature = 20) {
+    this.Temperature = temperature
     this.powerSavingMode = true
   }
 
@@ -47,4 +47,17 @@ class Thermostat {
   switchOnPSM() {
     this.powerSavingMode = true
   }
+
+  energyUsage() {
+    if (this.getTemperature() < 18) {
+      return 'Low Usage'
+    }
+    else if (this.getTemperature() > 25) {
+      return 'High Usage'
+    }
+    else {
+      return 'Medium Usage'
+    }
+  }
+
 }

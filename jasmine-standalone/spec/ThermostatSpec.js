@@ -68,4 +68,22 @@ describe('Thermostat', () => {
     })
   })
 
+  describe('Energy usage', () => {
+    it('shows low usage when the temperature is under 18 degrees', () => {
+      thermostat = new Thermostat(17)
+      expect(thermostat.energyUsage()).toEqual('Low Usage')
+    })
+
+    it('shows high usage when the temperature is over 25 degrees', () => {
+     thermostat = new Thermostat(26)
+     expect(thermostat.energyUsage()).toEqual('High Usage') 
+    })
+
+    it('shows medium usage when the temperature is between 18 and 25 degrees', () => {
+      expect(thermostat.energyUsage()).toEqual('Medium Usage')
+    })
+
+
+  })
+
 })
