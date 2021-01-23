@@ -1,3 +1,37 @@
+# Thermostat: business logic
+
+Alrighty. Now that you've got the basics under your fingers, it's time for a new domain.
+
+In this challenge, you will build the logic needed to model a simple thermostat.
+
+### Challenge setup
+
+Specification:
+
+* Thermostat starts at 20 degrees
+* You can increase the temperature with an up function
+* You can decrease the temperature with a down function
+* The minimum temperature is 10 degrees
+* If power saving mode is on, the maximum temperature is 25 degrees
+* If power saving mode is off, the maximum temperature is 32 degrees
+* Power saving mode is on by default but it can also be turned off
+* You can reset the temperature to 20 with a reset function
+* You can ask about the thermostat's current energy usage: < 18 is `low-usage`, <= 25 is `medium-usage`, anything else is `high-usage`.
+* (In the challenges where we add an interface, low-usage will be indicated with green, medium-usage indicated with black, high-usage indicated with red.)
+
+### Learning Objectives covered
+* Use Jasmine to Test-Drive Development of a thermostat
+
+### To complete this challenge, you will need to:
+- [ ] Translate the first specification into a test
+- [ ] Pass the test
+- [ ] Translate the next specification
+- [ ] Repeat until you've run out of tests
+
+## User Stories
+
+```
+
 As a user, so I can have a comfortable temperature in the house,
 I would like my thermostat to default at 20 degrees.
 
@@ -24,6 +58,9 @@ I would like to be able to reset the temperature to 20 degrees.
 
 As a user, so I can have a better understanding of energy usage,
 I would like to be able to see it displayed.
+
+
+```
 
 You can ask about the thermostat's current energy usage: < 18 is low-usage, <= 25 is medium-usage, anything else is high-usage.
 
