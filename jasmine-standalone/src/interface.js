@@ -42,5 +42,4 @@ $(document).ready(function() {
       $('#real-feel').text(data.main.feels_like);
     })
   })
-
 });
