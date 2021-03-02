@@ -1,10 +1,4 @@
-# Thermostat: business logic
-
-Alrighty. Now that you've got the basics under your fingers, it's time for a new domain.
-
-In this challenge, you will build the logic needed to model a simple thermostat.
-
-### Challenge setup
+# Thermostat
 
 Specification:
 
@@ -18,15 +12,6 @@ Specification:
 * You can reset the temperature to 20 with a reset function
 * You can ask about the thermostat's current energy usage: < 18 is `low-usage`, <= 25 is `medium-usage`, anything else is `high-usage`.
 * (In the challenges where we add an interface, low-usage will be indicated with green, medium-usage indicated with black, high-usage indicated with red.)
-
-### Learning Objectives covered
-* Use Jasmine to Test-Drive Development of a thermostat
-
-### To complete this challenge, you will need to:
-- [ ] Translate the first specification into a test
-- [ ] Pass the test
-- [ ] Translate the next specification
-- [ ] Repeat until you've run out of tests
 
 ## User Stories
 
@@ -62,6 +47,5 @@ I would like to be able to see it displayed.
 
 ```
 
-You can ask about the thermostat's current energy usage: < 18 is low-usage, <= 25 is medium-usage, anything else is high-usage.
-
-(In the challenges where we add an interface, low-usage will be indicated with green, medium-usage indicated with black, high-usage indicated with red.)
+## Screenshot:
+[![Screenshot-2021-03-02-at-21-30-25.png](https://i.postimg.cc/Kz6Sv4Mb/Screenshot-2021-03-02-at-21-30-25.png)](https://postimg.cc/k6vhTJsY)
