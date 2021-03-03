@@ -48,6 +48,8 @@ I would like to be able to see it displayed.
 
 
 ```
+## See it live on Heroku:
+https://amy-thermostat.herokuapp.com/
 
 ## Screenshot:
 [![Screenshot-2021-03-02-at-21-30-25.png](https://i.postimg.cc/Kz6Sv4Mb/Screenshot-2021-03-02-at-21-30-25.png)](https://postimg.cc/k6vhTJsY)
