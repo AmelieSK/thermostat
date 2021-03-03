@@ -18,7 +18,7 @@ body {
   color: white;
   text-align: center;
   padding: 50px;
-  background-image: url("public/image/cold.jpg");
+  background-image: url("../image/cold.jpg");
   height: 20%;
   background-repeat: no-repeat;
   background-position: cover;
